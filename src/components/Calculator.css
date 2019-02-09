@@ -5,7 +5,7 @@
 	padding: 24px 24px 0;
 	background-color: #000;
 	border-radius: 20px;
-	box-shadow: 0 0 0 8px #222;
+	box-shadow: 0 0 0 12px #222;
 	color: #fff;
 }
 
@@ -14,9 +14,9 @@
 	align-items: flex-end;
 	justify-content: flex-end;
 	height: 208px;
-	padding-right: 1px;
+	padding-right: 6px;
 	padding-bottom: 26px;
-	font-size: 100px;
+	font-size: 80px;
 	line-height: 1;
 }
 
@@ -39,6 +39,11 @@
 	text-align: center;
 	outline: none;
 	cursor: pointer;
+	transition: opacity .3s;
+}
+
+.calculator__keyboard button:hover {
+	opacity: .75;
 }
 
 .calculator__keyboard button.grey {

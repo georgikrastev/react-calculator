@@ -22,7 +22,7 @@ class Keyboard extends Component {
 
 					<Button handleClick={this.props.handleClick} name="9" />
 
-					<Button handleClick={this.props.handleClick} type="orange" name="&times;" />
+					<Button handleClick={this.props.handleClick} type="orange" name="×" />
 				</div>
 
 				<div className="row">
@@ -48,7 +48,7 @@ class Keyboard extends Component {
 				<div className="row">
 					<Button handleClick={this.props.handleClick} type="lg" name="0" />
 					
-					<Button handleClick={this.props.handleClick} name="," />
+					<Button handleClick={this.props.handleClick} name="." />
 
 					<Button handleClick={this.props.handleClick} type="orange" name="=" />
 				</div>
